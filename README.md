@@ -1,9 +1,2 @@
 # startup
-modified
-mod
-
-<<<<<<< HEAD
-idk haha
-=======
-need to try merge again
->>>>>>> d70d4d9422ae02be29d1eebe8498fdb109509c7f
+I thought this assignment was good but the commits are a sometimes not user friendly. Don't know why the commit button is always dim and unpushable except for the check mark above. 
