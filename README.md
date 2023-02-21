@@ -10,3 +10,10 @@ I need to reveiw git commit and push. I'm having trouble figuring out how to mak
 I learned how to make page links accesible on the same page.
 I also learned that making the simple images of the simon interface on html was hard. 
 I also learned that korean characters will work too.
+
+
+What I've learned from the Simon CSS
+I really like CSS it makes sense in my mind
+I'll need to make sure to incorporate the link method in my startup
+I'll need to go back and update my start up html if I add something while working through CSS
+I should look at what color scheme I want everything to be!
