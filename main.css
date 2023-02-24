@@ -53,7 +53,7 @@ body {
 
   .table{
     display: flex;
-    align-items: right;
+    align-items: left;
   }
 
   @media (max-height: 600px) {
