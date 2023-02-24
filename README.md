@@ -17,3 +17,11 @@ I really like CSS it makes sense in my mind
 I'll need to make sure to incorporate the link method in my startup
 I'll need to go back and update my start up html if I add something while working through CSS
 I should look at what color scheme I want everything to be!
+
+
+What I've learned from the startup HTML and CSS
+Bootstrap is nice, there are lots of resources online showing you how to use other features too
+Apparently the world decided to use index.html as the key to deploy things (I'd named mine home.html and had problems deploying)
+Um white text doesn't show up on a white background lol
+To treat something differently, use a <div class = ""> to name it something and use CSS to grab it a do something else than everything around it
+ 
