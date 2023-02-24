@@ -50,10 +50,14 @@ body {
   .moth{
     display: none;
   }
+  .stat-table{
+    display: flex;
+    align-items: flex-end;
+  }
 
   .table{
     display: flex;
-    align-items: left;
+    align-items: right;
   }
 
   @media (max-height: 600px) {
