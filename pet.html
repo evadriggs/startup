@@ -6,7 +6,7 @@
     <title>PocketPets</title>
     <link rel="icon" href="egg.png" />
 
-    <!-- <link rel="stylesheet" href="main.css" /> -->
+<link rel="stylesheet" href="main.css" />
 
     <!-- Include bootstrap CSS framework -->
     <link
@@ -16,6 +16,8 @@
       crossorigin="anonymous"
     />
   </head>
+
+  <!--Menu Navigation Bar-->
   <body class="bg-light text-light">
     <header class="container-fluid">
         <nav class="navbar fixed-top navbar-light">
@@ -34,21 +36,26 @@
         </nav>
       </header>
   
-
+<!--Stats Table-->
     <main class="bg-light">
-      <div class="stats">
-        Pet name:
-        <span class="pet-name">My pet</span>
-      </div>
-      <div class="stats">
-        Age:
-        <span class="age-stat">0</span>
-      </div>
-      <div class="stats">
-        Food:
-        <span class="food-stat">0</span>
-      </div>
+      <table class="table">
+        <tbody>
+          <tr>
+            <th scope="row">Pet Name</th>
+            <td>Unnamed :(</td>
+          </tr>
+          <tr>
+            <th scope="row">Age</th>
+            <td>0</td>
+          </tr>
+          <tr>
+            <th scope="row">Hunger</th>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
 
+<!-- Pet and Button -->
       <div class="pet">
         <div class="egg">
             <img
@@ -84,17 +91,17 @@
         </div>
         </div>
         <div class="food">
-            <button class="food-button">Push here to feed me!</button>
-        </div>
+          <button type="button" class="btn btn-outline-dark">Feed me!</button>
     </main>
 
+<!--Footer-->
     <footer class="bg-light text-dark text-muted">
       <div class="container-fluid">
         <span class="text-reset"> Created by Eva Driggs</span>
         <a
           class="text-reset"
           href="https://github.com/evadriggs/startup"
-          >Source</a
+          >GitHub Repo</a
         >
       </div>
     </footer>
