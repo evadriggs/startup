@@ -40,10 +40,6 @@ body {
   footer a {
     float: right;
   }
-  
-  #count {
-    color: rgb(246, 239, 158);
-  }
 
   .caterpillar{
     display: none;
