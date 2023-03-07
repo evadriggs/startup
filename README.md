@@ -25,3 +25,10 @@ Apparently the world decided to use index.html as the key to deploy things (I'd 
 Um white text doesn't show up on a white background lol
 To treat something differently, use a <div class = ""> to name it something and use CSS to grab it a do something else than everything around it
  
+ 
+ What I've learned from the Simon JS:
+make sure to include the script source at the bottom if the html changes it!
+you should make different JS files for differnt html files
+you can add sound with JS!
+I think I'll implement sound when I have my caterpillar eat in my startup
+ 
