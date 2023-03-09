@@ -204,4 +204,16 @@ a{3} = aaa	a{1,3} = a or aa or aaa
 
  Rest: use ...last parameter in a function to have variable amounts of args
  Spread: use ...[some, array, of, stuff, or anything iterable like a string] to use each item as a parameter
-
+ 
+ Arrays:
+ myArray.map: 	Run a function to map an array to a new array	... a.map(i => i+i)
+ .filter:	Run a function to remove items...	a.filter(i => i%2)
+ .sort:	Run a function sort an array in place... 	a.sort((a,b) => b-a)
+ .reduce (takes an array and makes it one thing)
+ 
+ KAHOOT
+ DOM textContext property: Sets the child text for the an element
+ Which of the following is a valid JavaScript object? { n:1 }
+ valid JSON: {"x":3}
+ The following console command makes a script executable: chmod +x deploy.sh
+ An A Record maps a hostname to one or more IP addresses, while the CNAME record maps a hostname to another hostname.
