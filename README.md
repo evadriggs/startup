@@ -115,12 +115,93 @@ svg	Scalable vector graphic content
 iframe	Inline frame of another HTML page
  
 Inserting an image example:
- <img
-  alt="mountain landscape"
-  src="https://images.pexels.com/photos/164170/pexels-photo-164170.jpeg"
-/>
+ex: "<img alt="mountain landscape" src="https://images.pexels.com/photos/164170/pexels-photo-164170.jpeg" />"
 
 By default a web server will display the HTML file named index.html
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 CSS
+
+Preferred way to link CSS... use this line in the header of your html:  <link rel="stylesheet" href="styles.css" />
+
+ Content: the actual text/image/etc.
+ Padding: will inherit properties like the background color
+ Border: has properties like color, thickness and line style
+ Margin: whitespace
+
+Selectors:
+ - Element: 
+     ex: body { ... }
+ - Combinators:
+    - Descendant:	A list of descendants	
+        ex: 	body section ... Any section that is a descendant of a body
+    - Child	A list of direct children		
+        ex: section > p ... Any p that is a direct child of a section
+    - General sibling	A list of siblings	
+        ex: p ~ div	... Any p that has a div sibling
+    - Adjacent sibling	A list of adjacent sibling	
+        ex: p + div	... Any p that has an adjacent div sibling
+ - Class selector: 
+    ex: .summary
+    ex: p.summary (select all paragraphs with a class of summary)
+ - ID
+    ex: #physics 
+ - Attribute
+    ex: p[class='summary'] 
+ - Pseudo (when mouse is hovering change the style)
+    ex: section:hover
+ 
+Width of an element can be defined by...
+ Absolute: 
+   px	The number of pixels
+   pt	The number of points (1/72 of an inch)
+   in	The number of inches
+   cm	The number of centimeters
+ Relative:
+   %	A percentage of the parent element
+   em	A multiplier of the width of the letter m in the parent's font
+   rem	A multiplier of the width of the letter m in the root's font
+   ex	A multiplier of the height of the element's font
+   vw	A percentage of the viewport's width
+   vh	A percentage of the viewport's height
+   vmin	A percentage of the viewport's smaller dimension
+   vmax	A percentage of the viewport's larger dimension
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+JavaScript
+ 
+ Include this line in the header of your html:   <script src="javascript.js"></script>
+
+ To declare vars: use let x = 1; or const x = 1;
+ 
+ ===: for strict equality, otherwise different types 1 == '1' will be true
+ 
+ REGULAR EXPRESSIONS
+Reg Expressions: IMPORT RE
+\d: any digit,	\D: non digit
+.: any character
+\w: any letter/number	\W: non letter/number
+[abc]: match only a, b, or c
+[a-z]
+[^abc]: match anything but abc
+(a|b|c): alternatives: this or that or this
+?: thing before is optional 
+\s: matches whitespaces
+^: matches beginning of string
+re.search(p, mS, re.MULTILINE): each line is a separate str
+$: thing before matches end of string
+r’strings’: \ does not have special functions
+\.: escapes special function of .
+(abc): group	\1 = group 1
+\b: bookends for start or end
+\B: must be in the middle of a word
+      Reptitions
+a{3} = aaa	a{1,3} = a or aa or aaa
+{,3}: no lower limit	{1,}: no upper limit
+.{2,6} = length matches between 2-6 characters
+*: any number of characters
++: at least one character
+
+ Rest: use ...last parameter in a function to have variable amounts of args
+ Spread: use ...[some, array, of, stuff, or anything iterable like a string] to use each item as a parameter
+
