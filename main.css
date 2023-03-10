@@ -43,13 +43,16 @@ body {
   .pet{
     display: flex
   }
-  .caterpillar{
+  #caterpillar{
     display: none;
   }
-  .pupa{
+  #caterpillar-eat {
     display: none;
   }
-  .moth{
+  #pupa{
+    display: none;
+  }
+  #moth{
     display: none;
   }
 

@@ -6,9 +6,8 @@
     <title>PocketPets</title>
     <link rel="icon" href="egg.png" />
 
-<!-- Links to CSS and JS-->
+<!-- Links to CSS-->
 <link rel="stylesheet" href="main.css" />
-<script src="pet.js"></script>
 
     <!-- Include bootstrap CSS framework -->
     <link
@@ -20,7 +19,7 @@
   </head>
 
   <!--Menu Navigation Bar-->
-  <body class="bg-light text-light">
+  <body class="bg-light text-dark">
     <header class="container-fluid">
         <nav class="navbar fixed-top navbar-light">
           <a class="navbar-brand" href="#">PocketPets<sup>&reg;</sup></a>
@@ -47,15 +46,15 @@
           <tbody>
             <tr>
               <th scope="row">Pet Name</th>
-              <td>Unnamed :(</td>
+              <td id = "pet-name">Unnamed :(</td>
             </tr>
             <tr>
               <th scope="row">Age</th>
-              <td>0</td>
+              <td id = "age">0</td>
             </tr>
             <tr>
               <th scope="row">Hunger</th>
-                <meter id="meter" name = "meter" min="0" max="100" value="0" low="33" high="66" optimum="50"></meter>
+                <td><meter id="meter" name = "meter" min="0" max="100" value="0" ></meter> </td>
             </tr>
           </tbody>
         </table>
@@ -63,33 +62,36 @@
 
 <!-- Pet -->
       <div class="pet">
-        <div class="egg">
+
+        <div id="egg">
             <img
                 alt="egg"
                 src="egg.png"
                 />
         </div>
-        <div class="caterpillar">
-            <div class = "caterpillar-rest">
-                <img
-                alt="caterpillar"
-                src="caterpillar-rest.png"
-                />
-            </div>
-            <div class = "caterpillar-eat">
-                <img
-                alt="caterpillar eating"
-                src="caterpillar-eat.png"
-                />
-            </div>
+
+        <div id = "caterpillar">
+            <img
+            alt="caterpillar"
+            src="caterpillar-rest.png"
+            />
         </div>
-        <div class="pupa">
+
+        <div id = "caterpillar-eat">
+            <img
+            alt="caterpillar eating"
+            src="caterpillar-eat.png"
+            />
+        </div>
+
+        <div id ="pupa">
             <img
                 alt="pupa"
                 src="pupa.png"
                 />
         </div>
-        <div class="moth">
+
+        <div id="moth">
             <img
                 alt="moth"
                 src="moth.png"
@@ -97,10 +99,10 @@
         </div>
         </div>
 <!-- Food Button -->
-        <div class="food">
+        <div>
           <button id = "food-button" onclick="feedMe()" class="btn btn-outline-dark">Feed me!</button>
-          <p id="result"></p>
         </div>
+        <p id="result">I'm hungry!</p>
         
     </main>
 
@@ -115,5 +117,7 @@
         >
       </div>
     </footer>
+    <script src="pet.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
