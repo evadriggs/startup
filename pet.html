@@ -6,7 +6,9 @@
     <title>PocketPets</title>
     <link rel="icon" href="egg.png" />
 
+<!-- Links to CSS and JS-->
 <link rel="stylesheet" href="main.css" />
+<script src="pet.js"></script>
 
     <!-- Include bootstrap CSS framework -->
     <link
@@ -36,8 +38,10 @@
         </nav>
       </header>
   
-<!--Stats Table-->
+
     <main class="bg-light">
+
+<!--Stats Table-->
       <div class = "stat-table">
         <table class="table">
           <tbody>
@@ -51,13 +55,13 @@
             </tr>
             <tr>
               <th scope="row">Hunger</th>
-              <td>0</td>
+                <meter id="meter" name = "meter" min="0" max="100" value="0" low="33" high="66" optimum="50"></meter>
             </tr>
           </tbody>
         </table>
       </div>
 
-<!-- Pet and Button -->
+<!-- Pet -->
       <div class="pet">
         <div class="egg">
             <img
@@ -92,8 +96,12 @@
                 />
         </div>
         </div>
+<!-- Food Button -->
         <div class="food">
-          <button type="button" class="btn btn-outline-dark">Feed me!</button>
+          <button id = "food-button" type = "button" class="btn btn-outline-dark">Feed me!</button>
+          <p id="result"></p>
+        </div>
+        
     </main>
 
 <!--Footer-->

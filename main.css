@@ -40,7 +40,9 @@ body {
   footer a {
     float: right;
   }
-
+  .pet{
+    display: flex
+  }
   .caterpillar{
     display: none;
   }
@@ -50,15 +52,14 @@ body {
   .moth{
     display: none;
   }
+
   .stat-table{
     display: flex;
-    align-items: flex-end;
-  }
-
-  .table{
-    display: flex;
     align-items: right;
-  }
+    position: absolute;
+    top: 0;
+    right: 0;
+    }
 
   @media (max-height: 600px) {
     header {
@@ -68,6 +69,6 @@ body {
       display: none;
     }
     main {
-      flex: 1 100vh;
+      flex: 1 90vh;
     }
   }
