@@ -60,7 +60,12 @@ body {
     top: 0;
     right: 0;
     }
-
+  .text{
+    text-align: left;
+    display: grid;
+    margin-top: -30vh;
+    ;
+  }
   @media (max-height: 600px) {
     header {
       display: none;
