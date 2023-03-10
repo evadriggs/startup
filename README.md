@@ -221,6 +221,7 @@ a{3} = aaa	a{1,3} = a or aa or aaa
  
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 What I learned from the Startup Javascript Deliverable
+ 
  NEED TO INCLUDE SCRIPT TAG AT THE BOTTOM OF HTML
  practically anything can be accessed using the id method
  why haven't I been using the browser's debugger tools, the errors there are much more helpful
