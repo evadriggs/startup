@@ -217,3 +217,15 @@ a{3} = aaa	a{1,3} = a or aa or aaa
  valid JSON: {"x":3}
  The following console command makes a script executable: chmod +x deploy.sh
  An A Record maps a hostname to one or more IP addresses, while the CNAME record maps a hostname to another hostname.
+ 
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+What I learned from the Startup Javascript Deliverable
+ NEED TO INCLUDE SCRIPT TAG AT THE BOTTOM OF HTML
+ practically anything can be accessed using the id method
+ why haven't I been using the browser's debugger tools, the errors there are much more helpful
+ To access the browser debugger tools: rightclick and select "inspect"
+ You can call a function within the script (usually put this at the bottom) so that when you load the page it runs
+ 
+ 
+ 
