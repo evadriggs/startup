@@ -30,6 +30,13 @@ To treat something differently, use a <div class = ""> to name it something and 
 make sure to include the script source at the bottom if the html changes it!
 you should make different JS files for differnt html files
 you can add sound with JS!
+ 
+ What I've learned from Simon Service:
+ Needed a different deploy script otherwise you will copy files over eternally
+ Need to implemnent an index.js for my start up that will act as a server
+ See the git hub code for ideas!
+ 
+ 
 I think I'll implement sound when I have my caterpillar eat in my startup
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
