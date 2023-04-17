@@ -236,4 +236,8 @@ What I learned from the Startup Javascript Deliverable
  You can call a function within the script (usually put this at the bottom) so that when you load the page it runs
  
  
- 
+ What I learned from Simon DB
+  Only need to set up environment variables once
+  To set up env vars: sudo vi ~/.bash_profile
+  Remember to esq :wq to exit vi
+  
