@@ -246,3 +246,7 @@ What I learned from simon Login
  Needed to add env variables to BOTH development and production environment! Only need to do this once though for both simon and startup
  Updated index.html, login.js, login.css, and install several packages via npm (check packages.json)
  
+What I learned from Simon Websockets
+ cool that peer-peer interactions can occur without required server-client interactions
+ I will have to implement websockets into my startup (probably do a notifications system that communicates with peers on at the same time who have updated their ages of the pets)
+ 
