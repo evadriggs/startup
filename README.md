@@ -241,3 +241,8 @@ What I learned from the Startup Javascript Deliverable
   To set up env vars: sudo vi ~/.bash_profile
   Remember to esq :wq to exit vi
   
+What I learned from simon Login
+ Need to update packages.json and install them using npm install (include bcrypt, express, cookie-parser, etc)
+ Needed to add env variables to BOTH development and production environment! Only need to do this once though for both simon and startup
+ Updated index.html, login.js, login.css, and install several packages via npm (check packages.json)
+ 
