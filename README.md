@@ -250,3 +250,6 @@ What I learned from Simon Websockets
  cool that peer-peer interactions can occur without required server-client interactions
  I will have to implement websockets into my startup (probably do a notifications system that communicates with peers on at the same time who have updated their ages of the pets)
  
+What I learned from Simon React
+React makes things simpler in some ways like you don't have to repeat stuff that is the same on every html file (like the header and footer)
+However it seems more complicated in other ways as you have to have a lot more files and it takes longer to deploy than the multiple-page web app
