@@ -30,6 +30,13 @@ To treat something differently, use a <div class = ""> to name it something and 
 make sure to include the script source at the bottom if the html changes it!
 you should make different JS files for differnt html files
 you can add sound with JS!
+ 
+ What I've learned from Simon Service:
+ Needed a different deploy script otherwise you will copy files over eternally
+ Need to implemnent an index.js for my start up that will act as a server
+ See the git hub code for ideas!
+ 
+ 
 I think I'll implement sound when I have my caterpillar eat in my startup
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -217,3 +224,32 @@ a{3} = aaa	a{1,3} = a or aa or aaa
  valid JSON: {"x":3}
  The following console command makes a script executable: chmod +x deploy.sh
  An A Record maps a hostname to one or more IP addresses, while the CNAME record maps a hostname to another hostname.
+ 
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+What I learned from the Startup Javascript Deliverable
+ 
+ NEED TO INCLUDE SCRIPT TAG AT THE BOTTOM OF HTML
+ practically anything can be accessed using the id method
+ why haven't I been using the browser's debugger tools, the errors there are much more helpful
+ To access the browser debugger tools: rightclick and select "inspect"
+ You can call a function within the script (usually put this at the bottom) so that when you load the page it runs
+ 
+ 
+ What I learned from Simon DB
+  Only need to set up environment variables once
+  To set up env vars: sudo vi ~/.bash_profile
+  Remember to esq :wq to exit vi
+  
+What I learned from simon Login
+ Need to update packages.json and install them using npm install (include bcrypt, express, cookie-parser, etc)
+ Needed to add env variables to BOTH development and production environment! Only need to do this once though for both simon and startup
+ Updated index.html, login.js, login.css, and install several packages via npm (check packages.json)
+ 
+What I learned from Simon Websockets
+ cool that peer-peer interactions can occur without required server-client interactions
+ I will have to implement websockets into my startup (probably do a notifications system that communicates with peers on at the same time who have updated their ages of the pets)
+ 
+What I learned from Simon React
+React makes things simpler in some ways like you don't have to repeat stuff that is the same on every html file (like the header and footer)
+However it seems more complicated in other ways as you have to have a lot more files and it takes longer to deploy than the multiple-page web app
