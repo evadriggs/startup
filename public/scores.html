@@ -36,26 +36,30 @@
         </nav>
       </header>
 
-    <main class="container-fluid bg-light text-center">
-      <div>
-        <h1>Welcome</h1>
-        <p>Login to play</p>
-        <form method="get" action="pet.html">
-          <input type="text" id="name" placeholder="Enter pet name" />
-          <button class="btn btn-primary" onclick="login()">Login</button>
-        </form>
-      </div>
+    <main class="container-fluid bg-secondary text-center">
+      <table class="table table-warning table-striped-columns">
+        <thead class="table-dark">
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="scores"></tbody>
+      </table>
     </main>
 
     <footer class="bg-light text-dark text-muted">
-      <div class="container-fluid">
-        <span class="text-reset">Created by Eva Driggs</span>
-        <a
-          class="text-reset"
-          href="https://github.com/evadriggs/startup"
-          >GitHub Repo</a>
-      </div>
-    </footer>
-    <script src="index.js"></script>
+        <div class="container-fluid">
+          <span class="text-reset">Created by Eva Driggs</span>
+          <a
+            class="text-reset"
+            href="https://github.com/evadriggs/startup"
+            >GitHub Repo</a>
+        </div>
+      </footer>
+
+    <script src="scores.js"></script>
   </body>
 </html>
