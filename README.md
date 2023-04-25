@@ -253,3 +253,94 @@ What I learned from Simon Websockets
 What I learned from Simon React
 React makes things simpler in some ways like you don't have to repeat stuff that is the same on every html file (like the header and footer)
 However it seems more complicated in other ways as you have to have a lot more files and it takes longer to deploy than the multiple-page web app
+
+What I learned from Startup Services
+need to make sure to use port 4000 for my startup and 3000 for simon
+thirdparty endpoints are cool! you can access info from other apis without storing anything in your own server
+need to review login authenticatioon, service endpoints, and mongo DB servers before the final
+"nav-link active" means that this tab will be highlighted when you are on that page
+the package.json tells which node modules to download
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FINAL notes!
+
+Topics: HTTP, HTTP requests, web services, database services, authorization services, WebSocket, web application frameworks, and web security.
+
+3/8 Web services
+
+Caddy: 
+  Uniform Resource locator: https://cs260.click:443/api/city?q=pro#3
+  scheme: what protocol to use to talk to domain
+  domain: maps to an ip address
+  port: which port to talk to (this is redundant if u use the scheme)
+  path: used by the application, you determine what these mean
+  parameters: ^^ identifies a resource
+  anchor: ^^ subnotation for what to pass back from resource
+
+Port types:
+   20: file transfer protocol (FTP) for data transfer
+   22: secure shell (SSH) for connecting to remote devices
+   25: simple mail transfer protocol (SMTP) for sending email
+Domain Name System (DNS) for looking up IP addresses
+Hypertext Transfer Protocol (NTP) etc
+
+
+Hypertext Transfer Protocol: HTTP, how computers share info
+HTTP requests template
+  methods
+  headers
+  content-length: body length in characters/bytes
+  body
+Methods
+  get: get an existing resource (no body)
+  post: create new resource
+  put: update existing resource
+  delete: delete a resource
+  options: get info about a resource
+Response
+  version
+  status code: most common is 200 meaning it worked
+  status message
+  headers
+  connection: keep-alive means to keep the connection alive
+  body
+Status Codes: 4 major ones
+  2xx
+    200: success
+    204: success, no content
+  3xx: don’t have what you asked for
+    301/302: temporary redirect
+    304: not modified (when you cache (store something away for later on everything) and ask for something that is newer, error that it hasn’t been 
+    modified and is old)
+  4xx: you made a bad ask
+    400: bad request
+    404: not found
+    403: forbidden
+    429: too many requests
+  5xx: valid request, but server errors
+    500: server error
+    503: not available
+Headers:
+know cookie. cache control, etc
+
+Cookies
+  give you info to store on your the machine. until I request it then give it back
+  exploited by the marketing to track user purchases, etc
+  but other they save the language the user prefers or login authentications so they don’t have to reauthenticate
+  ex: set-cookie: key = value & key=value; Secure; HttpOnly; SameSite=strict
+  after the key values, the following are flags that help with security
+  next request is… cookie: key =value
+  often these cookies point to a database where all the info you need is stored
+
+Cache control: happens in your browser, cache servers, and origin server
+  caching is storing things for later
+  Response
+  cache-control: no-store
+  chache-control: max-age=864000 (expiry time)
+  etag: “unique id”
+  last-modified: 2/23/23
+  Request
+
+
+
